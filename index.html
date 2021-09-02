@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>khang</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is little bit of khang ._.">
+        <meta name="keywords" content="business, personal, portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/magnific-popup.css"/> 
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css"/> 
+        <link rel="stylesheet" href="css/owl.theme.css"/> 
+        <link rel="stylesheet" href="css/owl.carousel.css"/> 
+
+        <!-- Theme Colors -->
+        <link rel="stylesheet" href="css/colors/switcher.css"/>
+        <link rel="stylesheet" href="css/colors/color-1.css"/>
+        <link href="css/colors/color-2.css" rel="alternate stylesheet" type="text/css" title="color-2">
+        <link href="css/colors/color-3.css" rel="alternate stylesheet" type="text/css" title="color-3">
+        <link href="css/colors/color-4.css" rel="alternate stylesheet" type="text/css" title="color-4">
+        <link href="css/colors/color-5.css" rel="alternate stylesheet" type="text/css" title="color-5">
+        <link href="css/colors/color-6.css" rel="alternate stylesheet" type="text/css" title="color-6">
+        <link href="css/colors/color-7.css" rel="alternate stylesheet" type="text/css" title="color-7">
+        <link href="css/colors/color-8.css" rel="alternate stylesheet" type="text/css" title="color-8">
+        <link href="css/colors/color-9.css" rel="alternate stylesheet" type="text/css" title="color-9">
+        <link href="css/colors/color-10.css" rel="alternate stylesheet" type="text/css" title="color-10">
+        <link href="css/colors/color-11.css" rel="alternate stylesheet" type="text/css" title="color-11">
+        <link href="css/colors/color-12.css" rel="alternate stylesheet" type="text/css" title="color-12">
+
+        <!-- Google Web fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" type="text/css">
+
+        <!-- Font icons -->
+        <link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <!-- Preloading --> 
+        <div id="preloader">
+            <div class="spinner">
+                <div class="uil-ripple-css" style="transform:scale(0.29);"><div></div><div></div></div>
+            </div>
+        </div>
+
+        <!-- Switcher --> 
+        <div class="color-switcher">
+            <div class="open"><i class="fa fa-cog fa-spin"></i></div>
+            <h4>SELECT A COLOR</h4>
+            <ul>
+                <li><a class="color-1" onclick="setActiveStyleSheet('color-1'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-2" onclick="setActiveStyleSheet('color-2'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-3" onclick="setActiveStyleSheet('color-3'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-4" onclick="setActiveStyleSheet('color-4'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-5" onclick="setActiveStyleSheet('color-5'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-6" onclick="setActiveStyleSheet('color-6'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-7" onclick="setActiveStyleSheet('color-7'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-8" onclick="setActiveStyleSheet('color-8'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-9" onclick="setActiveStyleSheet('color-9'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-10" onclick="setActiveStyleSheet('color-10'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-11" onclick="setActiveStyleSheet('color-11'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+                <li><a class="color-12" onclick="setActiveStyleSheet('color-12'); return false;" href="#"><i class="fa fa-circle"></i></a> </li>
+            </ul>
+            <button class="switcher-reset" onclick="setActiveStyleSheet('color-1'); return false;">RESET </button>
+
+        </div>
+
+
+        <div class="container wrapper">
+            <div class="site">
+                <div class="left-navbar">
+                    <a class="open-menu right-menu"></a>
+                    <div class="navigation">	
+                        <ul class="links-to-floor">
+                            <li><a>HOME</a></li>
+                            <li><a>ABOUT</a> </li>
+                            <li><a>MY RESUME</a></li>
+                            <li><a>PORTFOLIO</a></li>
+                            <li><a>CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <a class="facebook" href="https://fb.com/nguyenvan.khang.31521/"><i class="fa fa-facebook"></i> </a>
+                        <a class="twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i> </a>
+                    </div>
+                </div>
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt=""> 
+                </div>
+
+                <div id="ascensorBuilding">
+                    <!-- HOME SECTION -->
+                    <div class="floor home-page">
+                        <div class="home-box">
+                            <h1>Khang</h1>
+                            <span>This boy can do many things</span>
+                            <p>I am a 22 years old boy, a noob developer.
+                            </p>
+                            <img class="signature" src="images/signature.png" alt="">
+                        </div>
+                    </div>
+                    <!-- ABOUT SECTION -->
+                    <div class="scroll-out">
+                        <div class="floor about">
+                            <h2 class="page-title">About Me</h2>
+                            <p class="top15"> I am not a special guy in this big world but I can create many special stuffs. </p>
+                            <ul class="list top15 bottom30">
+                                <li><span>Date of birth :</span> Dec 13, 2000</li>
+                                <li><span>Address :</span> Somewhere in this earth</li>
+                                <li><span>Email :</span> gmail</li>
+                                <li><span>Phone :</span> my phone (and my birthday)</li>
+                                <li><span>You can call me :</span> kkk</li>                            
+                            </ul>
+                            <a href="#" class="recoba-btn2">HIRE ME</a>
+                            <a href="#" class="recoba-btn">DOWNLOAD RESUME</a>
+                            <!-- Skills -->
+                            <h3 class="subtitle top60">My Skills</h3>
+                            <ul class="skill-list top30">
+                                <li> 
+                                    <h3>Web Design</h3>
+                                    <div class="progress">
+                                        <div class="percentage" style="width:60%;"></div>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <h3>Development</h3>
+                                    <div class="progress">
+                                        <div class="percentage" style="width:60%;"></div>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <h3>System Admin</h3>
+                                    <div class="progress">
+                                        <div class="percentage" style="width:80%;"></div>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <h3>Photography</h3>
+                                    <div class="progress">
+                                        <div class="percentage" style="width:25%;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!--What I'm Doing-->
+                            <h3 class="subtitle top60">What I'm Doing</h3>                       	
+                            <div class="row top30">
+                                <div class="col-md-6 features">
+                                    <i data-icon="1" class="icon"></i>
+                                    <h3>Web Design</h3>
+                                    <p> I can create beautiful and responsive website within such a short time. </p>
+                                </div>
+                                <div class="col-md-6 features">
+                                    <i data-icon="0" class="icon"></i>
+                                    <h3>Application</h3>
+                                    <p> I am also developing some usefull Android/iOS application to "make the world a better place". </p>
+                                </div>
+                                <div class="col-md-6 features">
+                                    <i data-icon="!" class="icon"></i>
+                                    <h3>System Administrator</h3>
+                                    <p> I can manage servers(OS, application, deploy,...), fix issues, design network routes. I am pretty sure that I can deal with these annoying server </p>
+                                </div>
+                                <div class="col-md-6 features">
+                                    <i data-icon="C" class="icon"></i>
+                                    <h3>infor</h3>
+                                    <p> Really like taking pictures and making videos but I'd rather keep it personal than pubic them. </p>
+                                </div>
+                            </div>
+                            <!--Testimonials -->
+                            <h3 class="subtitle top30">Testimonials</h3>
+                            <div id="testimonial" class="owl-carousel owl-theme testimonial top30">
+
+                                <!--slide item -->
+                                <!--slide item -->
+                                <div class="item">
+                                    <div class="testi-profile">
+                                        <img src="images/person-1.jpg" alt="">
+                                        <div class="testi-name">
+                                            <h3>Son Le </h3>
+                                            <span>Ceo & Founder of HST Solution</span>
+                                        </div>
+                                    </div>
+                                    <p> “Happy new year
+                                        ”</p>
+                                </div>
+                                <!--slide item -->
+                                <div class="item">
+                                    <div class="testi-profile">
+                                        <img src="images/person-2.jpg" alt="">
+                                        <div class="testi-name">
+                                            <h3>Puaru </h3>
+                                            <span>Founder of V4U.vn</span>
+                                        </div>
+                                    </div>
+                                    <p> “Nice service. ”</p>
+                                </div>
+                                <!--slide item -->
+                                <div class="item">
+                                    <div class="testi-profile">
+                                        <img src="images/person-3.jpg" alt="">
+                                        <div class="testi-name">
+                                            <h3>Hai Dang Le </h3>
+                                            <span>Jobless</span>
+                                        </div>
+                                    </div>
+                                    <p> “Cafe không em?”</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- RESUME SECTION -->
+                    <div class="scroll-out">
+                        <div class="floor resume">
+                            <h2 class="page-title">Resume</h2>
+                            <p class="top15">I am not sure that these following words are correct. </p>
+                            <!-- Experience -->
+                            <h3 class="subtitle top30 bottom30">Experience</h3>
+                            <ul class="resume-list">
+                                <li>
+                                    <h3>Administrator at eGblobe </h3>
+                                    <span> 2020 - Present </span>
+                                    <p>Found myself a new job at eGblobe.net.</p>
+                                </li>
+                              
+                                <li>
+                                    <h3>Freelancer </h3>
+                                    <span> 2016 - 2017 </span>
+                                    <p> Newbie stuffs. Just hz319.com is now working.</p>
+                                </li>
+                            </ul>
+                            <!-- EDUCATION -->
+                            <h3 class="subtitle top60 bottom30">Education</h3>
+                            <ul class="resume-list">
+                                <li>
+                                    <h3>My Hao High School</h3>
+                                    <span> 2015 - 2018 </span>
+                                    <p>12A12 with love.</p>
+                                </li>
+                                <li>
+                                    <h3>Nhan Hoa Secondary School </h3>
+                                    <span> 2011 - 2015 </span>
+                                    <p>This is the place that I will never gonna forget. Perfect friends, perfect class, perfect teacher. I am also the one that the teachers here said that they never gonna forget me. But they still forget then(Jkd) </p>
+                                </li>
+                                <li>
+                                    <h3>Nhan Hoa Primary school </h3>
+                                    <span> 2006 - 2010 </span>
+                                    <p>Meet my friends, my teachers. They just put many beautiful memories into my soul. </p>
+                                </li>   
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- PORTFOLIO SECTION -->
+                    <div class="scroll-out">
+                        <div class="floor portfolio">
+                            <h2 class="page-title">Portfolio</h2>
+                            <div class="portfolio_filter">
+                                <ul>
+                                    <li class="select-cat" data-filter="*">All</li>
+                                    <li data-filter=".web-design">Web Design</li>
+                                    <li data-filter=".aplication">Applications</li>
+                                    <li data-filter=".development">Development</li>
+                                </ul>
+                            </div>
+                            <!-- Portfolio items -->
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="isotope_items row">
+                                        <!-- Item -->
+                                        <div class="single_item web-design col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p> Personal Blog</p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="https://hz319.com" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="https://img.timviec.com.vn/2020/03/blog-la-gi.png" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="https://img.timviec.com.vn/2020/03/blog-la-gi.png" alt="">
+                                            </div>
+                                        </div>    
+
+                                        <!-- Item -->
+                                        <div class="single_item aplication col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p> Personal project calculating lottery. pro.lh1.me</p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="work-single.html" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="images/work-2.jpg" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="images/work-2.jpg" alt="">
+                                            </div>
+                                        </div>  
+
+                                        <!-- Item -->
+                                        <!-- Item -->
+                                        <div class="single_item development col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p>Unity project</p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="https://github.com/hzhoanglee/Unity-NoVNC-for-Heroku" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Ubuntu_Desktop_17.04.jpg" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Ubuntu_Desktop_17.04.jpg" alt="">
+                                            </div>
+                                        </div>   
+                                        <!-- Item -->
+                                        <div class="single_item aplication col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p> Local guide app.</p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="#" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="images/work-5.jpg" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="images/work-5.jpg" alt="">
+                                            </div>
+                                        </div>   
+                                        <!-- Item -->
+                                        <div class="single_item aplication col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p> Lê Minh and Hạ Vy NodeJS bot. </p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="https://eliric.io/" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="images/work-6.jpg" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="images/work-6.jpg" alt="">
+                                            </div>
+                                        </div>  
+                                        <!-- Item -->
+                                        <div class="single_item web-design col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p> cdn.hzv.io. Yeah, the place I put my stuff there</p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="https://cdn.hzv.io" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="images/work-7.jpg" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="images/work-7.jpg" alt="">
+                                            </div>
+                                        </div>  
+                                        <!-- Item -->
+                                        <div class="single_item web-design col-md-6">                                        
+                                            <div class="work-inner">
+                                                <div class="work-overlay">	
+                                                    <div class="overlay-in">
+                                                        <div class="work-info">
+                                                            <p> Too many that I cannot even remember</p>   
+                                                            <div class="work-links">                                             
+                                                                <a href="#" class="link"><i data-icon="5" class="icon"></i></a>
+                                                                <a href="images/work-8.jpg" class="image-link lightbox"><i data-icon="W" class="icon"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <img src="images/work-8.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <!-- Item -->
+
+                                        <!-- Item End -->
+                                    </div> 
+                                </div>
+                            </div> <!-- Portfolio items end -->
+                        </div>
+                    </div>
+
+                    <!-- CONTACT SECTION-->
+                    <div class="scroll-out">
+                        <div class="floor contact">
+                            <h2 class="page-title">Contact</h2>
+                            <p class="top15">You can contact me for work or just something you want to tell me here. </p>
+                            <ul class="list top15 bottom15">
+                                <li><span>Phone :</span> myphone(mybirthday)</li>
+                                <li><span>Address :</span> Somewhere in this earth</li>
+                                <li><span>Email :</span> gmail</li>
+                                <li><span>Email :</span> gmail</li>
+                                <li><span>You can call me: :</span> kkk</li>                            
+                            </ul>
+                            <div class="social">
+                                <a class="facebook" href="https://fb.com/nguyenvan.khang.31521/"><i class="fa fa-facebook"></i> </a>
+                                <a class="twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i> </a>
+                                <a class="instagram" href="https://www.instagram.com//"><i class="fa fa-instagram"></i> </a>
+                            </div>
+                            <!--Contact Form-->
+                            <div class="row">
+                                <form class="col-md-12 contact-form" method="POST" action="mail.php">
+                                    <h3 class="subtitle top45 bottom30">Get In Touch</h3>
+                                    <!--Name-->
+                                    <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
+                                    <!--Email-->
+                                    <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+                                    <!--Message-->
+                                    <textarea name="con_message" id="con_message" class="requie" placeholder="Message" rows="8"></textarea>
+                                    <input id="con_submit" class="but-big" type="submit" value="SEND A MESSAGE">
+                                </form>
+                            </div>
+                            <!--map-->
+                            <h3 class="subtitle top45 bottom30">Contact Map</h3>
+                            <div id="map"></div>	 
+                        </div>
+                    </div>
+
+                    <!-- CONTACT END-->
+                </div>
+            </div>
+        </div> <!-- wrapper end -->
+
+        <!-- Sidebar Menu -->
+        <div class="slidemenu-fixed">
+            <button class="right-menu slidemenu-close"><img src="images/close.png" alt=""></button>  
+            <div class="scroll-out">     
+                <!-- Search Widget-->
+                <div class="widget-search widget">
+                    <h2 class="widget-title">Search</h2>
+                    <form>                                    
+                        <input class="search-inp" type="text" placeholder="Search...">
+                        <input class="search-ico" type="submit" value="">
+                    </form>
+                </div>
+                <!-- Submenu Widget-->
+                <div class="widget-submenu widget">
+                    <h2 class="widget-title">Submenus</h2>
+                    <ul>
+                        <li> <a href="#">Blog Page</a> </li>
+                        <li> <a href="#">eGlobe.net </a> </li>
+                    </ul>
+                </div>
+                <!-- Tags Widget-->
+                <div class="widget-tags widget">
+                    <h2 class="widget-title">Somebody:</h2>
+                    <ul>
+                        <li><a href="#"> LDPL </a></li>
+                        <li><a href="#"> TNMC </a></li>
+                        <li><a href="#"> NTTT </a></li>
+                        <li><a href="#"> Comming up :)) </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+
+
+
+        <!-- Javascripts -->
+        <script src="./js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
+        <script src="./js/bootstrap.min.js"></script> 
+        <script src="./js/jquery.ascensor.js"></script>
+        <script src="./js/isotope.pkgd.min.js"></script>
+        <script src="./js/jquery.magnific-popup.min.js"></script>
+        <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDj3cQNQ5dhNXHB-TkI4EbsF62nzBR1Wug"></script>
+        <script src="./js/styleswitcher.js"></script> 
+        <script src="./js/main.js"></script>
+
+
+    </body>
+</html>
